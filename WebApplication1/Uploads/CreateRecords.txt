@@ -1,0 +1,22 @@
+INSERT INTO Categories(CategoryName, DisplayOrder)
+VALUES
+('3C', 10),
+('家電', 20),
+('生活用品', 30)
+
+
+
+INSERT INTO Products(CategoryId, ProductName, UnitPrice)
+VALUES
+(1, 'HP Printer', 3000),
+(1, '華碩A320 桌機', 20000),
+(1, '華碩 Zenbook 14 UX3402ZA', 34900),
+(2, 'Dyson Cyclone V10 Fluffy SV12 無線吸塵器', 12900),
+(2, 'SANSUI 山水 1.8L大容量304不銹鋼電茶壺二入組', 788),
+(2, '大日 Dainichi 煤油暖氣機', 10900),
+(2, 'PHILIPS 飛利浦  智能護齦音波震動牙刷 HX6803/02', 2490),
+(3, 'Boden-奧洛4尺多功能收納升降大茶几', 5599),
+(3, 'Flexispot 單螢幕懸浮旋臂支架 - 黑色', 1912),
+(3, 'Flexispot 簡易式氣壓升降工作台', 3390),
+(3, 'TOTO TCF23710ATW C2 溫水洗淨便座', 8990),
+(3, '象印*0.82L*SLiT不鏽鋼真空保溫瓶', 690)
